@@ -186,3 +186,53 @@ section#gallery.big-image {
     display: none;
     background-color: red;
 }
+section#contact-as>.form-wrapper {
+    width: 30%;
+    margin: 50px;
+    padding: 25px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+}
+section#contact-as form>.form-row {
+    margin: 5px;
+    padding: 7px;
+    display: block;
+    width: 100%;
+}
+section#contact-as form>.form-row.x2 {
+    width: 50%;
+}
+section#contact-as form>.form-row>label {
+    font-weight: bold;
+    font-size: 1.1em;
+    display: block;
+    color: black;
+    padding: 4px;
+}
+section#contact-as form>.form-row>.error-label {
+    font-weight: bold;
+    font-size: 1.1em;
+
+    color: red;
+}
+section#contact-as form>.form-row>input {
+    width: 350px;
+    padding: 10px;
+}
+section#contact-as form>.form-row>textarea {
+    width: 350px;
+    padding: 10px;
+}
+section#contact-as form>.form-row .radio-block {
+    margin-left: 20px;
+}
+section#contact-as form>.form-row .radio-block>input {
+    padding: 7px;
+}
+section#contact-as form>button {
+    width: 175px;
+    color: white;
+    padding: 10px;
+    margin-top: 7px;
+    background-color: green;
+}
